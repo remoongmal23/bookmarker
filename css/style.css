@@ -1,0 +1,119 @@
+body{
+    background-color: antiquewhite ;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    border-bottom: 2px dotted black;
+}
+
+
+.parent{
+    text-align: center;
+}
+
+
+.parent h1{
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    font-weight: 200;
+    color: #352e28;
+    border-bottom: 2px dotted black;
+    padding-bottom: 40px;
+
+}
+
+.parent h2{
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    color:  #3ca55c;
+   
+}
+
+
+
+.parent label{
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    text-align: left;
+
+}
+
+
+.parent input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.parent button{
+     display: block;
+     background-color: rgb(182, 31, 31);
+     color: white;
+     border: none;
+     padding: 8px 50px;
+     font-size: 18px;
+     border-radius: 5px;
+     width: fit-content;
+     margin: 20px auto;
+     opacity: 0.8;
+
+}
+
+.parent button:hover{
+    opacity: 1;
+}
+
+
+.parent input:focus{
+    outline: none;
+    box-shadow: 0px 0px 10px orange;
+}
+
+
+
+
+
+table{
+ width: 80%;
+ margin: 30px auto;
+ text-align: center;
+ background-color: white;
+ font-size: 17px;
+ font-family: sans-serif; 
+}
+
+
+table th,
+table td {
+border-bottom: 1px solid #ddd;
+padding: 10px 0px;
+}
+
+
+
+
+
+table td button,
+table td a{
+    background-color:#eb1d36;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+table td a{
+   background-color: #55aa23;
+   text-decoration: none;
+}
